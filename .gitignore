@@ -30,8 +30,5 @@ node_modules
 # Optional npm cache directory
 .npm
 
-# Configs
-config
-
 # Static Files
 questions
