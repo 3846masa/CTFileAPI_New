@@ -3,8 +3,8 @@ File-based CTF-Question Serving API.
 
 ## How to use
 - Clone project.
-- ``npm install && npm run build``
-- Create ``static`` folder in project root.
+- ``npm install``
+- Create ``questions`` folder in project root.
 - Put questions folloing below.
   - ``questionList.json`` is JSON Array of folders.
     - If not exist, create dynamically
@@ -15,7 +15,7 @@ File-based CTF-Question Serving API.
   - ``README.md`` and ``flag.sha3-512`` are required.
 
 ```
-static/
+questions/
   |--- questionList.json
   |--- Binary-100-Overflow
   |   |- README.md
