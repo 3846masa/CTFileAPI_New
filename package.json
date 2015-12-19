@@ -1,0 +1,33 @@
+{
+  "name": "CTFileAPI",
+  "version": "0.0.1",
+  "description": "File-based CTF-Question Serving API.",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "node lib/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "3846masa",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.7.3"
+  },
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "bluebird": "3.1.1",
+    "body-parser": "1.14.2",
+    "co": "4.6.0",
+    "config": "^1.16.0",
+    "connect-mongo": "1.0.1",
+    "cookie-parser": "1.4.0",
+    "cookie-session": "2.0.0-alpha.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.0",
+    "js-sha3": "^0.5.1",
+    "kerberos": "0.0.17",
+    "mongoose": "4.3.2",
+    "passport": "^0.3.0",
+    "passport-local": "1.0.0",
+    "source-map-support": "^0.3.3"
+  }
+}
