@@ -35,17 +35,24 @@ static/
 - Then, ``npm start``.
 
 ## API (json)
-- GET ``/``
+- GET ``/api/status``
   - Server status.
-- GET ``/scores``
+- GET/POST ``/api/scores``
   - All Users and Scores
-- GET ``/login``
-  - Redirect to Twitter Login
-- GET ``/logout``
+  - ``Content-Type: application/json`` is required if you post
+- POST ``/api/auth``
+  - Login
+  - ``Content-Type: application/json`` is required
+- POST ``/api/signup``
+  - Signup
+  - ``Content-Type: application/json`` is required
+- GET ``/api/logout``
   - Logout
-- GET ``/user``
+- GET ``/api/user``
   - User Info if you passed auth
-- POST ``/submit``
+- GET ``/api/users``
+  - All users Info
+- POST ``/api/submit``
   - You submit flag
   - ``Content-Type: application/json`` is required
   - Example
