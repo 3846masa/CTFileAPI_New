@@ -2,3 +2,4 @@ db: mongodb://localhost/dev
 port: 8000
 secret: |
   1e3f8828bd00d4c0e5bb1bc4382b8ef232f854450da190dc00111c052607702ba298cb9923596542d82fdbfa922e450fedd559fca01aaa50719d7d296a4f077c
+domain: '.meiji-ncc.tech'
